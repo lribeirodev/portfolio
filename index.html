@@ -3,117 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            box-sizing: border-box;
-            height: 100vh;
-        }
-
-        #left-column {
-            width: 266px;
-            background-color: #F28E13;
-            border-right: 9px solid #F2D6B3;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            color: white;
-
-            .profile {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                
-                .photo {
-                    margin-top: 45px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 117px;
-                    height: 117px;
-                    background-image: url(perfil.jpeg);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    border-radius: 100%;
-                    border: 6px solid #F2D6B3;
-                }
-
-                .name {
-                    margin: 0px;
-                    margin-top: 31px;
-                }
-
-                .role {
-                    margin: 0px;
-                }
-
-                .description {
-                    margin: 0px;
-                    margin-top: 31px;
-                    padding: 17px;
-                }
-
-            }
-           
-        }
-
-        #center-column {
-            width: 909px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            
-            .title {
-                margin-top: 35px;
-                margin-bottom: 35px;
-                font-size: 64px;
-            }
-
-            .wrapper-preview-article {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: flex-start;
-                height: 100vh;
-
-                .preview-article {
-                    margin-bottom: 31px;
-                    width: 684px;
-                    .title {
-                        margin: 0px;
-                        font-size: 40px;
-                        margin-bottom: 6px;
-                        display: block;
-                    }
-
-                    .content {
-                        margin: 0px;
-                        font-size: 20px;
-                    }
-
-                    .links {
-                        display: flex;
-                        justify-content: space-between;
-                    }
-                }
-                
-            }
-        }
-
-        #right-column {
-            width: 243px;
-            border-right: 13px solid #F2D6B3;
-        }
-
-        
-    </style>
+    <title>Portfolio - Lucas Ribeiro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="left-column">
@@ -155,12 +46,28 @@
                     <a href="#">read the full article</a>
                 </div>
             </div>
-
-  
+            <div class="wrapper-bottom-navigation">
+                <span class="prev-button">prev page</span>
+                <span class="next-button">next page</span>
+            </div>
         </div>
     </div>
     <div id="right-column">
-        right column
+        <div class="wrapper-column-tags">
+            <h1>#Tags</h1>
+            <ul>
+                <li>adobe</li>
+                <li>experience manager</li>
+                <li>backend</li>
+                <li>frontend</li>
+                <li>workflow</li>
+                <li>dispatcher</li>
+                <li>dialog</li>
+                <li>sling model</li>
+                <li>custom annotation</li>
+                <li>maven archetype</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
