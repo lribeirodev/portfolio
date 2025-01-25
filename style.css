@@ -14,8 +14,8 @@ body {
 
 #left-column {
     width: 266px;
-    background-color: #F28E13;
-    border-right: 9px solid #F2D6B3;
+    background-color: #0C3471;
+    border-right: 9px solid #3A547B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,14 +136,14 @@ body {
 
 #right-column {
     width: 243px;
-    border-right: 13px solid #F2D6B3;
+    border-right: 13px solid #3A547B;
     display: flex;
     align-items: center;
     @media screen and (max-width: 1024px) {
         justify-content: center;
         border-right: 0px;
         width: 100vw;
-        border-bottom: 13px solid #F2D6B3;
+        border-bottom: 13px solid #3A547B;
     }
     .wrapper-column-tags {
         display: flex;
